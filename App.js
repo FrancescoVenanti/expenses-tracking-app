@@ -6,7 +6,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import ManageExpense from "./screens/ManageExpense";
 import AllExpense from "./screens/AllExpenses";
 import RecenteExpenses from "./screens/RecentExpenses";
-import { GlobalStyles } from "./constants/styles";
+import { GlobalStyles } from "./constants/GlobalStyles";
 import { Ionicons } from "@expo/vector-icons";
 
 const Stack = createNativeStackNavigator();
